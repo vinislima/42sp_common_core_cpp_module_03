@@ -6,14 +6,14 @@
 #    By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/27 16:43:55 by vinda-si          #+#    #+#              #
-#    Updated: 2025/12/27 23:48:51 by vinda-si         ###   ########.fr        #
+#    Updated: 2025/12/28 17:20:14 by vinda-si         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= fragtrap
+NAME		= diamondtrap
 CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
-SRC			= main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
+SRC			= main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 OBJ			= $(SRC:.cpp=.o)
 
 all: $(NAME)
